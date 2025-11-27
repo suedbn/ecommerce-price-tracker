@@ -60,7 +60,7 @@ def price_finder():
 old_price = price_finder()
 
 while True:
-    time.sleep(10)
+    time.sleep(3600)
 
     updated_price = price_finder()
 
@@ -80,3 +80,4 @@ while True:
     else:
         pass
         #print(f"Değişiklik yok. ({updated_price} TL)")
+
